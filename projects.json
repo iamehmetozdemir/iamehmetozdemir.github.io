@@ -1,12 +1,39 @@
 [
   {
+    "id": "match3-unity",
+    "title": {
+      "en": "Match-3 Puzzle Game",
+      "tr": "Match-3 Bulmaca Oyunu"
+    },
+    "description": {
+      "en": "A complete mobile-style match-3 game in Unity 6 and C#: cascades, rockets, bombs and color bombs with chain reactions, five levels and a playable WebGL build. The game rules are a pure C# core covered by 26 unit tests, and level difficulty was tuned with bot simulations.",
+      "tr": "Unity 6 ve C# ile yapılmış, mobil tarzı eksiksiz bir match-3 oyunu: zincirleme patlatmalar, rocket, bomba ve renk bombası (zincir reaksiyonlu), beş level ve oynanabilir WebGL sürümü. Oyun kuralları 26 birim testle kapsanan saf bir C# çekirdeğinde; level zorlukları bot simülasyonlarıyla ayarlandı."
+    },
+    "tech": [
+      "Unity",
+      "C#",
+      "NUnit",
+      "WebGL"
+    ],
+    "github": "https://github.com/iamehmetozdemir/match3-unity",
+    "demo": "https://iamehmetozdemir.github.io/match3-unity/"
+  },
+  {
     "id": "spam-detector",
-    "title": { "en": "Bilingual Spam Detector", "tr": "İki Dilli Spam Dedektörü" },
+    "title": {
+      "en": "Bilingual Spam Detector",
+      "tr": "İki Dilli Spam Dedektörü"
+    },
     "description": {
       "en": "Spam classifier for Turkish and English messages. TF-IDF with word and character n-grams plus Logistic Regression (~99.8% accuracy on a held-out split of two Kaggle datasets), served through a FastAPI endpoint with a Streamlit UI.",
       "tr": "Türkçe ve İngilizce mesajlar için spam sınıflandırıcı. Kelime ve karakter n-gram'lı TF-IDF ile Logistic Regression (iki Kaggle veri setinin ayrılmış test kümesinde ~%99,8 doğruluk); FastAPI uç noktası ve Streamlit arayüzüyle sunuluyor."
     },
-    "tech": ["Python", "scikit-learn", "FastAPI", "Streamlit"],
+    "tech": [
+      "Python",
+      "scikit-learn",
+      "FastAPI",
+      "Streamlit"
+    ],
     "github": "https://github.com/iamehmetozdemir/spam-detector"
   }
 ]
