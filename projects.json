@@ -1,0 +1,45 @@
+[
+  {
+    "id": "project-one",
+    "title": { "en": "Project One", "tr": "Proje Bir" },
+    "description": {
+      "en": "A placeholder project. Replace this with a short description of what it does and why it matters.",
+      "tr": "Yer tutucu bir proje. Burayı projenin ne yaptığını ve neden önemli olduğunu anlatan kısa bir açıklamayla değiştir."
+    },
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/your-username/project-one",
+    "demo": "https://your-username.github.io/project-one/"
+  },
+  {
+    "id": "project-two",
+    "title": { "en": "Project Two", "tr": "Proje İki" },
+    "description": {
+      "en": "Another placeholder. Mention the problem you solved and the result you achieved.",
+      "tr": "Bir başka yer tutucu. Çözdüğün problemi ve elde ettiğin sonucu belirt."
+    },
+    "tech": ["React", "Node.js", "PostgreSQL"],
+    "github": "https://github.com/your-username/project-two",
+    "demo": "https://example.com"
+  },
+  {
+    "id": "project-three",
+    "title": { "en": "Project Three", "tr": "Proje Üç" },
+    "description": {
+      "en": "A project without a live demo: leave out the \"demo\" field and its link simply won't appear.",
+      "tr": "Canlı demosu olmayan bir proje: \"demo\" alanını silersen bağlantısı görünmez."
+    },
+    "tech": ["Python", "FastAPI", "Docker"],
+    "github": "https://github.com/your-username/project-three"
+  },
+  {
+    "id": "project-four",
+    "title": { "en": "Project Four", "tr": "Proje Dört" },
+    "description": {
+      "en": "Last placeholder. Add as many projects as you like — cards are generated from this file.",
+      "tr": "Son yer tutucu. İstediğin kadar proje ekleyebilirsin — kartlar bu dosyadan üretilir."
+    },
+    "tech": ["TypeScript", "Figma"],
+    "github": "https://github.com/your-username/project-four",
+    "demo": "https://example.com"
+  }
+]
