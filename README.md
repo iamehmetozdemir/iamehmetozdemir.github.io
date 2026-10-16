@@ -31,7 +31,7 @@ python3 -m http.server 8000
 ## Kendi bilgilerini girme
 
 1. **Ad, unvan, tanıtım, hakkımda, yetenek başlıkları** → `i18n/en.json` ve `i18n/tr.json` (örn. `"name"`, `"hero.role"`, `"about.p1"`, `"about.f1_v"`).
-2. **İletişim** (e-posta ve sosyal linkler) → `index.html` içindeki `#contact` bölümü (`you@example.com`, `your-username`).
+2. **İletişim** (e-posta ve sosyal linkler) → `index.html` içindeki `#contact` bölümü (e-posta, GitHub, LinkedIn).
 3. **Yetenek listeleri** (JavaScript, React vb.) → `index.html` içindeki `#skills` bölümü. Başlıklar ve "Practices" çevirileri JSON'da.
 4. **Renkler/yazı tipleri** → `css/style.css` başındaki `:root` değişkenleri (`--accent` vurgu rengidir).
 5. `index.html` içindeki İngilizce metinler JS çalışmadan önce/yokken görünen yedektir ve arama motorları için de önemlidir. `en.json`'daki metni değiştirince `index.html`'deki aynı metni de güncelle (özellikle ad, `<title>` ve `<meta name="description">`).
