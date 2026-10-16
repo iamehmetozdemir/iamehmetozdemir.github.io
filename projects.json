@@ -1,45 +1,12 @@
 [
   {
-    "id": "project-one",
-    "title": { "en": "Project One", "tr": "Proje Bir" },
+    "id": "spam-detector",
+    "title": { "en": "Bilingual Spam Detector", "tr": "İki Dilli Spam Dedektörü" },
     "description": {
-      "en": "A placeholder project. Replace this with a short description of what it does and why it matters.",
-      "tr": "Yer tutucu bir proje. Burayı projenin ne yaptığını ve neden önemli olduğunu anlatan kısa bir açıklamayla değiştir."
+      "en": "Spam classifier for Turkish and English messages. TF-IDF with word and character n-grams plus Logistic Regression (~99.8% accuracy on a held-out split of two Kaggle datasets), served through a FastAPI endpoint with a Streamlit UI.",
+      "tr": "Türkçe ve İngilizce mesajlar için spam sınıflandırıcı. Kelime ve karakter n-gram'lı TF-IDF ile Logistic Regression (iki Kaggle veri setinin ayrılmış test kümesinde ~%99,8 doğruluk); FastAPI uç noktası ve Streamlit arayüzüyle sunuluyor."
     },
-    "tech": ["JavaScript", "HTML", "CSS"],
-    "github": "https://github.com/your-username/project-one",
-    "demo": "https://your-username.github.io/project-one/"
-  },
-  {
-    "id": "project-two",
-    "title": { "en": "Project Two", "tr": "Proje İki" },
-    "description": {
-      "en": "Another placeholder. Mention the problem you solved and the result you achieved.",
-      "tr": "Bir başka yer tutucu. Çözdüğün problemi ve elde ettiğin sonucu belirt."
-    },
-    "tech": ["React", "Node.js", "PostgreSQL"],
-    "github": "https://github.com/your-username/project-two",
-    "demo": "https://example.com"
-  },
-  {
-    "id": "project-three",
-    "title": { "en": "Project Three", "tr": "Proje Üç" },
-    "description": {
-      "en": "A project without a live demo: leave out the \"demo\" field and its link simply won't appear.",
-      "tr": "Canlı demosu olmayan bir proje: \"demo\" alanını silersen bağlantısı görünmez."
-    },
-    "tech": ["Python", "FastAPI", "Docker"],
-    "github": "https://github.com/your-username/project-three"
-  },
-  {
-    "id": "project-four",
-    "title": { "en": "Project Four", "tr": "Proje Dört" },
-    "description": {
-      "en": "Last placeholder. Add as many projects as you like — cards are generated from this file.",
-      "tr": "Son yer tutucu. İstediğin kadar proje ekleyebilirsin — kartlar bu dosyadan üretilir."
-    },
-    "tech": ["TypeScript", "Figma"],
-    "github": "https://github.com/your-username/project-four",
-    "demo": "https://example.com"
+    "tech": ["Python", "scikit-learn", "FastAPI", "Streamlit"],
+    "github": "https://github.com/iamehmetozdemir/spam-detector"
   }
 ]
