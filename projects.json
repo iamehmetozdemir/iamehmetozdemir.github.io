@@ -25,8 +25,8 @@
       "tr": "İki Dilli Spam Dedektörü"
     },
     "description": {
-      "en": "Spam classifier for Turkish and English messages. TF-IDF with word and character n-grams plus Logistic Regression (~99.8% accuracy on a held-out split of two Kaggle datasets), served through a FastAPI endpoint with a Streamlit UI.",
-      "tr": "Türkçe ve İngilizce mesajlar için spam sınıflandırıcı. Kelime ve karakter n-gram'lı TF-IDF ile Logistic Regression (iki Kaggle veri setinin ayrılmış test kümesinde ~%99,8 doğruluk); FastAPI uç noktası ve Streamlit arayüzüyle sunuluyor."
+      "en": "Spam classifier for Turkish and English messages: TF-IDF with word and character n-grams plus Logistic Regression (~99.8% accuracy on a held-out split of two Kaggle datasets). Served through FastAPI and Streamlit, and the live demo runs the same model fully in the browser, ported to JavaScript and checked against the Python version.",
+      "tr": "Türkçe ve İngilizce mesajlar için spam sınıflandırıcı: kelime ve karakter n-gram'lı TF-IDF ile Logistic Regression (iki Kaggle veri setinin ayrılmış test kümesinde ~%99,8 doğruluk). FastAPI ve Streamlit ile sunuluyor; canlı demo aynı modeli tamamen tarayıcıda çalıştırıyor, JavaScript'e aktarıldı ve Python sürümüyle karşılaştırılarak doğrulandı."
     },
     "tech": [
       "Python",
@@ -34,6 +34,7 @@
       "FastAPI",
       "Streamlit"
     ],
-    "github": "https://github.com/iamehmetozdemir/spam-detector"
+    "github": "https://github.com/iamehmetozdemir/spam-detector",
+    "demo": "https://iamehmetozdemir.github.io/spam-detector/"
   }
 ]
