@@ -6,8 +6,8 @@
       "tr": "Match-3 Bulmaca Oyunu"
     },
     "description": {
-      "en": "A complete mobile-style match-3 game in Unity 6 and C#: cascades, rockets, bombs and color bombs with chain reactions, five levels and a playable WebGL build. The game rules are a pure C# core covered by 26 unit tests, and level difficulty was tuned with bot simulations.",
-      "tr": "Unity 6 ve C# ile yapılmış, mobil tarzı eksiksiz bir match-3 oyunu: zincirleme patlatmalar, rocket, bomba ve renk bombası (zincir reaksiyonlu), beş level ve oynanabilir WebGL sürümü. Oyun kuralları 26 birim testle kapsanan saf bir C# çekirdeğinde; level zorlukları bot simülasyonlarıyla ayarlandı."
+      "en": "A match-3 puzzle game I made in Unity (C#). It has cascades, rockets, bombs and a color bomb, five levels, and you can play it in the browser. The game rules are separate from the Unity code and have unit tests.",
+      "tr": "Unity (C#) ile yaptığım bir match-3 bulmaca oyunu. Zincirleme patlatma, roket, bomba ve renk bombası var, beş level içeriyor ve tarayıcıda oynanabiliyor. Oyun kuralları Unity kodundan ayrı ve birim testleri var."
     },
     "tech": [
       "Unity",
@@ -25,8 +25,8 @@
       "tr": "İki Dilli Spam Dedektörü"
     },
     "description": {
-      "en": "Spam classifier for Turkish and English messages: TF-IDF with word and character n-grams plus Logistic Regression (~99.8% accuracy on a held-out split of two Kaggle datasets). Served through FastAPI and Streamlit, and the live demo runs the same model fully in the browser, ported to JavaScript and checked against the Python version.",
-      "tr": "Türkçe ve İngilizce mesajlar için spam sınıflandırıcı: kelime ve karakter n-gram'lı TF-IDF ile Logistic Regression (iki Kaggle veri setinin ayrılmış test kümesinde ~%99,8 doğruluk). FastAPI ve Streamlit ile sunuluyor; canlı demo aynı modeli tamamen tarayıcıda çalıştırıyor, JavaScript'e aktarıldı ve Python sürümüyle karşılaştırılarak doğrulandı."
+      "en": "A spam classifier for Turkish and English messages, made while learning machine learning. It uses TF-IDF features with Logistic Regression and a FastAPI backend. The live demo runs the model in your browser.",
+      "tr": "Makine öğrenmesini öğrenirken yaptığım, Türkçe ve İngilizce mesajlar için spam sınıflandırıcı. TF-IDF özellikleri ve Logistic Regression kullanıyor, FastAPI ile sunuluyor. Canlı demo modeli tarayıcıda çalıştırıyor."
     },
     "tech": [
       "Python",
