@@ -14,7 +14,7 @@
   /* ---------- i18n ---------- */
   function loadLang(lang) {
     if (cache[lang]) return Promise.resolve(cache[lang]);
-    return fetch('i18n/' + lang + '.json')
+    return fetch('i18n/' + lang + '.json', { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (d) { cache[lang] = d; return d; });
   }
@@ -94,7 +94,7 @@
   }
 
   function loadProjects() {
-    return fetch('projects.json')
+    return fetch('projects.json', { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (data) { projects = Array.isArray(data) ? data : (data.projects || []); renderProjects(); })
       .catch(function () { document.getElementById('project-error').hidden = false; });
