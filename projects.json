@@ -6,8 +6,8 @@
       "tr": "Match-3 Bulmaca Oyunu"
     },
     "description": {
-      "en": "A match-3 puzzle game I made in Unity (C#). It has cascades, rockets, bombs and a color bomb, five levels, and you can play it in the browser. The game rules are separate from the Unity code and have unit tests.",
-      "tr": "Unity (C#) ile yaptığım bir match-3 bulmaca oyunu. Zincirleme patlatma, roket, bomba ve renk bombası var, beş level içeriyor ve tarayıcıda oynanabiliyor. Oyun kuralları Unity kodundan ayrı ve birim testleri var."
+      "en": "A match-3 puzzle game I made in Unity (C#), playable in the browser. Eight levels with different goals, ice and box obstacles, rockets, bombs and color bombs, sound effects and a star rating. The game rules are separate from the Unity code and have unit tests.",
+      "tr": "Unity (C#) ile yaptığım, tarayıcıda oynanabilen bir match-3 bulmaca oyunu. Farklı hedefli sekiz level, buz ve kutu engelleri, roket, bomba ve renk bombası, ses efektleri ve yıldız puanlaması var. Oyun kuralları Unity kodundan ayrı ve birim testleri var."
     },
     "tech": [
       "Unity",
