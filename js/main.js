@@ -162,7 +162,6 @@
   }
 
   /* ---------- Init ---------- */
-  document.getElementById('year').textContent = new Date().getFullYear();
   var saved = read('lang');
   var initial = LANGS.indexOf(saved) >= 0 ? saved : DEFAULT_LANG;
   loadLang(DEFAULT_LANG).catch(function () {}).then(function () {
