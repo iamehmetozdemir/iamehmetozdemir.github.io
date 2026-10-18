@@ -28,6 +28,8 @@
   "about.f2_v": "B.Sc. Computer Engineering, ITU (2023–2028)",
   "about.f3_k": "Languages",
   "about.f3_v": "English (fluent), Turkish (native), French (elementary)",
+  "about.f4_k": "Volunteering",
+  "about.f4_v": "Board Member, Anadolu Foundation – Anadolu Volunteers (2026–present)",
   "projects.title": "Projects",
   "projects.sub": "A few things I've built recently.",
   "projects.error": "Projects could not be loaded. If you opened this file directly, serve it with a local web server instead.",
